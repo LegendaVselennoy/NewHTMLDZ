@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document DZ3</title>
+</head>
+<body>
+    <script>
+        function checkName(){
+            let name=prompt("Как Вас зовут?","Имя");
+            if(name==null || name==""){
+                alert("Пока!")
+            }else{
+                alert(name);
+                document.write("Привет, "+name)
+            }
+        }
+        
+        checkName();
+    </script>
+</body>
+</html>
